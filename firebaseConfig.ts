@@ -18,15 +18,15 @@ import { getFirestore } from "firebase/firestore";
 // 7. Incolla l'oggetto qui sotto, sostituendo completamente quello di esempio.
 //
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY", // <- INSERISCI LA TUA API KEY
-  authDomain: "calendario-fire-71782510.firebaseapp.com", // Aggiornato
-  projectId: "calendario-fire-71782510", // Aggiornato dall'immagine
-  storageBucket: "calendario-fire-71782510.appspot.com", // Aggiornato
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID", // <- INSERISCI IL TUO SENDER ID
-  appId: "YOUR_APP_ID" // <- INSERISCI IL TUO APP ID
+  apiKey: "AIzaSyDle6eVzVT__Nhb0zR3m5vq1Xf_1_qKA8E", // <- INSERISCI LA TUA API KEY
+  authDomain: "calendario-giustificativi.firebaseapp.com", // Aggiornato
+  projectId: "calendario-giustificativi", // Aggiornato dall'immagine
+  storageBucket: "calendario-giustificativi.firebasestorage.app", // Aggiornato
+  messagingSenderId: "1007450344962", // <- INSERISCI IL TUO SENDER ID
+  appId: "1:1007450344962:web:fd035e27a53dfe912ee11b" // <- INSERISCI IL TUO APP ID
 };
 
-// Inizializza Firebase solo se non è già stato fatto
+// Inizializza Firebase solo se non è già stato fattocalendario-giustificativi.firebaseapp.com
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
 // Esporta l'istanza di Firestore da utilizzare nell'applicazione
