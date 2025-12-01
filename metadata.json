@@ -1,0 +1,5 @@
+{
+  "name": "REVISIONE 1_ Gestore Calendario Lavorativo",
+  "description": "Un'applicazione per la gestione del calendario lavorativo che permette di tracciare i giustificativi come SMART WORKING, RU, e FERIE, e di calcolare le ore totali per ciascun tipo.",
+  "requestFramePermissions": []
+}
