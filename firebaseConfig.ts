@@ -4,8 +4,9 @@ import { getFirestore } from "firebase/firestore";
 // ===================================================================================
 // ATTENZIONE: AZIONE RICHIESTA!
 // ===================================================================================
-// Ho aggiornato il `projectId` a "calendario-fire" come richiesto.
-// Ora devi completare la configurazione con le altre credenziali REALI del tuo progetto.
+// Ho aggiornato il `projectId` a "calendario-fire-71782510" basandomi sull'immagine
+// che hai fornito. Ora devi completare la configurazione con le altre credenziali
+// REALI del tuo progetto.
 //
 // COME OTTENERE LE ALTRE CREDENZIALI:
 // 1. Vai su https://console.firebase.google.com/ e apri il tuo progetto "CALENDARIO-FIRE".
@@ -15,13 +16,12 @@ import { getFirestore } from "firebase/firestore";
 // 5. Cerca la sezione "Configurazione" o "SDK setup and configuration".
 // 6. Seleziona "Config" e copia l'intero oggetto JavaScript.
 // 7. Incolla l'oggetto qui sotto, sostituendo completamente quello di esempio.
-//    Assicurati che il projectId sia corretto (solitamente tutto minuscolo, es: "calendario-fire").
 //
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY", // <- INSERISCI LA TUA API KEY
-  authDomain: "calendario-fire.firebaseapp.com", // <- MODIFICA SE DIVERSO
-  projectId: "calendario-fire", // Aggiornato come richiesto
-  storageBucket: "calendario-fire.appspot.com", // <- MODIFICA SE DIVERSO
+  authDomain: "calendario-fire-71782510.firebaseapp.com", // Aggiornato
+  projectId: "calendario-fire-71782510", // Aggiornato dall'immagine
+  storageBucket: "calendario-fire-71782510.appspot.com", // Aggiornato
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID", // <- INSERISCI IL TUO SENDER ID
   appId: "YOUR_APP_ID" // <- INSERISCI IL TUO APP ID
 };
